@@ -30,7 +30,7 @@ def initialise_database():
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         itemName TEXT NOT NULL,
         quantity INTEGER NOT NULL,
-        batchNumber TEXT NOT NULL,
+        batchNumber TEXT NOT NULL UNIQUE,
         location TEXT NOT NULL,
         status TEXT NOT NULL
     )

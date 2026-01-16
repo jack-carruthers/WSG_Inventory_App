@@ -1,3 +1,5 @@
+
+# for representing inventory items
 class InventoryItem:
     def __init__(self, item_id, name, quantity, batch, location, status):
         self.item_id = item_id
